@@ -1,0 +1,22 @@
+[project]
+name = "nasa-outgassing-database"
+version = "0.1.0"
+description = "Scraper for NASA's outgassing database/table"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+  "polars",
+  "pandas",
+  "requests",
+  "loguru",
+  "lxml",
+  "pyarrow",
+  "ordered_set",
+  "xlsxwriter",
+]
+
+[dependency-groups]
+dev = [
+    "pyright>=1.1.404",
+    "ruff>=0.12.10",
+]

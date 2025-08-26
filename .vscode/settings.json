@@ -1,0 +1,6 @@
+{
+    "python.analysis.typeCheckingMode": "strict",
+    "[python]": {
+        "editor.formatOnSave": true
+    }
+}
